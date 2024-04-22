@@ -1,0 +1,21 @@
+/* settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* default setting */
+:where(html, body) {
+  height: 100%;
+}
+body {
+  border: 1px solid #ddd;
+}
+
+/* share */
+.send-item {
+  white-space: pre-line;
+  padding: 0.5rem 0;
+  border: 1px solid #ddd;
+}
